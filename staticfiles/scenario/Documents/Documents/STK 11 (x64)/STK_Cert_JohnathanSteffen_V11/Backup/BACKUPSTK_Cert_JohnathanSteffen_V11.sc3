@@ -1,0 +1,1113 @@
+VO_V110
+    Begin WinFonts
+        Font "Lucida Console,12,0,0"
+        Font "Lucida Console,14,0,0"
+        Font "Lucida Console,20,0,0"
+    End
+    HideCursor               No
+    IsShowingModels          Yes
+    RelativeModelScale       1.000000
+    AbsoluteModelScale       100.000000
+    IsUsingDetailThresholds  Yes
+    DetailLevel0             70000.000000
+    DetailLevel1             140000.000000
+    DetailLevel2             28000000.000000
+    DetailLevel3             56000000.000000
+    DisableDefKbdActions     No
+    KMLListView 0
+    UseModelShaders Yes
+    ChunkTerrainTextureCacheSizeMb  64
+    ChunkTerrainCacheSizeMb  64
+    ReadAllNeededTextures    No
+    UseStoredViewTime        No
+    UseStoredViewImageSets   No
+    UseSmoothTransitions     No
+    RunStoredViewConFile     No
+    MaintainViewTimeOrder    Yes
+    DefaultBingServerName       virtualearth.net
+    BingServerName       virtualearth.net
+
+    Begin DefaultViewAngles
+        AIRCRAFT	0.000000	30.000000
+        AREATARGET	0.000000	90.000000
+        FACILITY	0.000000	30.000000
+        GROUNDVEHICLE	0.000000	30.000000
+        LAUNCHVEHICLE	0.000000	30.000000
+        MISSILE	0.000000	30.000000
+        PLACE	0.000000	90.000000
+        PLANET	0.000000	0.000000
+        SATELLITE	0.000000	0.000000
+        SENSOR	0.000000	0.000000
+        SHIP	0.000000	30.000000
+        TARGET	0.000000	90.000000
+    End DefaultViewAngles
+
+    Begin EditData
+        AxisScale       20.000000
+        PointScale      5.000000
+        Linewidth       1.000000
+        LineStyle       0
+        ColorRGB        1.000000 1.000000 0.000000
+        AllowNegativeAlt No
+        EnableDropLines Yes
+    End EditData
+
+    Begin DefaultRefCrdnData
+        Begin Point
+            Begin CentralBodyCrdns
+            End
+        End
+        Begin Direction
+        End
+        Begin Untethered
+        End
+    End DefaultRefCrdnData
+
+    Begin DefaultRefSystemData
+        Begin Point
+        End
+        Begin Direction
+        End
+        Begin Untethered
+        End
+    End DefaultRefSystemData
+
+    Begin ViewPathManager
+        EnableLighting              Yes
+        ShowCameraObj               Yes
+        ShowKeyframeCtrlPts         Yes
+        KeyframeCtrlPtColor         #ffffff
+        KeyframeCtrlPtSize          10
+        ShowKeyframeOrientVecs      No
+        KeyframeOrientVecSize       50
+        ShowNonKeyframeCtrlPts      Yes
+        NonKeyframeCtrlPtColor      #ffff00
+        NonKeyframeCtrlPtSize       8
+        RippleTimeChanges           Yes
+        OptimizeWhileEditing        Yes
+        Begin ViewPath
+            Name                "Path0"
+            Color               #ff0000
+            Show                Yes
+            CrdnSys             View
+            OrientInterpMethod  Tethered
+            FieldOfViewInterpMethod Linear
+            ManageTimes         No
+            SavedTimes          0
+
+            Begin KeyframeInfo
+                Begin View
+                    ViewTime                0.000000
+                    ViewUpdateDelta         10.000000
+                    CentralBody             Earth
+                    Begin ViewCrdnAxes
+						BEGIN	AXES
+							Type	AXES_LINKTO
+							Name	TopoCentric
+							RelativePath	Aircraft/CertAircraft
+						END	AXES
+                    End
+                    Begin FromViewCrdnPoint
+						BEGIN	POINT
+							Type	POINT_LINKTO
+							Name	Center
+							RelativePath	Aircraft/CertAircraft
+						END	POINT
+                    End
+                    Begin ToViewCrdnPoint
+						BEGIN	POINT
+							Type	POINT_LINKTO
+							Name	Center
+							RelativePath	Aircraft/CertAircraft
+						END	POINT
+                    End
+                    fov                           0.785398
+                    FarNearPlaneDistanceRatio     1000.000000
+                    NearPlaneDistance             1.000000
+                    FarPlaneDistance              10000000000.000000
+                    PanOnCentralBodies      Yes
+                    UseArcBallRotateSpeedOpt      No
+                    ArcBallRotateSpeed            0.000000
+                    ArcBallRadius           0.900000
+                    ArcBallRotateMode       From
+                    ZoomSpeed               0.000000
+                    ZoomUseDistanceToCb     Yes
+                    GlobeDetailLevel        1
+                    UseLayer                Yes
+                    FromName                "Aircraft/CertAircraft"
+                    FromRegPosAttView       "Point"
+                    FromPosition            -2827333.103294556494802237  -5574066.991977245546877384  -1334346.160184956854209304
+                    FromOffset              -7.846821973565965891  -77.136604604311287403  52.701367297675460577
+                    FromOffsetLLR           0.689681649951779163  2.746689017736959393  93.750000000059714012
+                    ToName                  "Aircraft/CertAircraft"
+                    ToRegPosAttView         "Point"
+                    ToPosition              -2827325.256472582928836346  -5573989.855372641235589981  -1334398.861552254529669881
+                    ToOffset                0.000000000000000000  0.000000000000000000  0.000000000000000000
+                    ToOffsetLLR             0.000000000000000000  0.000000000000000000  0.000000000000000000
+                    ConstantDistanceType    None
+                    ConstantDistanceValue   1.000000
+                    UpVector                -0.504261052353906281  -0.451594637446711966  -0.736059151500954023
+                    ViewRad                 93.749999999903678827
+                    ViewQuat                0.9228428 0.0663151 0.3314785 -0.1846226
+                    ViewCoordSystem         From
+                    ViewFromToMode          FromTo
+                    ViewToCBIMtx            0.094098809316900955 0.187899190923407344 -0.977670347374548721 0.891932606787980031 -0.452167126879769843 -0.001055612473031764  -0.442268740737507382 -0.871916729636278753 -0.210141803425297369
+                    UseUpAxis               Yes
+                    UpAxisType              Z
+                    UserDefinedUpAxis       0.000000000000000000 0.000000000000000000 1.000000000000000000
+                    OverUpAxis              No
+                    LockInViewDir           No
+                    NoZoom                  No
+                    NoPan                   No
+                    MinAngleToUpAxis        0.0087266
+                    InitUpAxisUp            Yes
+                    TempUpAxisUp            Yes
+                    CrossAxis               0.3847192 0.9230336 -0.0000000
+                    DefaultOffset           93.7500000
+                    BaseDefaultOffset       75.0000000
+                End View
+            End KeyframeInfo
+            Begin PositionCurve 6.2
+                Knots 1
+                    0.000000
+                ControlPoints 1
+                    -66.756846 27.824168 59.652340
+            End PositionCurve
+        End ViewPath
+    End ViewPathManager
+    TextAntialias               No
+    TextShadowStyle             Dark
+    TextShadowColor             #000000
+
+    SurfaceLineType             OnTerrainWhenTrnSvrEnabled
+    SurfaceLineFadeFactor       1.000000
+    CompToolsDontRender         Yes
+
+    Begin Async3dPickOptions
+        SpecialKeysIgnore No
+    End Async3dPickOptions
+    _AGI_PIBEGINTYPEMGR3DINPDEVMODE
+    End
+    EarthShapeModel          "WGS84"
+
+    Begin SceneWindow
+
+        Begin Scene
+            SceneID                  1
+            CentralBody              Earth
+            DisplayMode              Normal
+            StereoProjectionMode     Automatic
+            ProjectionDistance       699657.298680
+            EyeSeparationFactor      0.020000
+            WireframeMode            No
+            CameraLightAntiSun       No
+
+            Begin Compass
+                Show No
+                UseMagPole No
+                Radius 65.000000
+                XPosition 80
+                YPosition 100
+                XOrigin Min
+                YOrigin Min
+            End Compass
+
+            Begin Declutter
+                Enabled No
+                ShowsLines Yes
+                Mode MinimizeDistance
+                AvoidsTerrain Auto
+                ShiftFromTerrain 75
+                MaxPixelsPerSec 80
+            End Declutter
+
+            Begin LatLonLines
+                Enabled No
+                LineType Surface
+                FadeFactor 1.000000
+                SpacingLat 30.000000
+                SpacingLon 30.000000
+                Begin LineAttributes
+                    Width            1.000000
+                    Style            0
+                    Color            #f0ffff
+                End LineAttributes
+            End LatLonLines
+
+        BEGIN SoftVTR
+            OutputFormat     WMV
+            Directory        C:\Users\sjones\Videos
+            BaseName         AircraftView
+            Digits           4
+            Frame            220
+            LastAnimTime     0.000000
+            OutputMode       Normal
+            HiResAssembly    Assemble
+            HRWidth          6000
+            HRHeight         4500
+            HRDPI            600.000000
+            UseSnapInterval  No
+            SnapInterval     0.000000
+            WmvCodec         "Windows Media Video 9"
+            Framerate        30
+            Bitrate          3000000
+        END SoftVTR
+
+
+            BEGIN MapList
+                BEGIN Detail
+                    Alias RWDB2_Coastlines
+                    Show Yes
+                    Color #8fbc8f
+                END Detail
+                BEGIN Detail
+                    Alias RWDB2_International_Borders
+                    Show Yes
+                    Color #8fbc8f
+                END Detail
+                BEGIN Detail
+                    Alias RWDB2_Islands
+                    Show No
+                    Color #00ff00
+                END Detail
+                BEGIN Detail
+                    Alias RWDB2_Lakes
+                    Show No
+                    Color #00ff00
+                END Detail
+                BEGIN Detail
+                    Alias RWDB2_Provincial_Borders
+                    Show No
+                    Color #8fbc8f
+                END Detail
+                BEGIN Detail
+                    Alias RWDB2_Rivers
+                    Show No
+                    Color #87cefa
+                END Detail
+            END MapList
+
+            SnapDirectory            C:\Users\sjones\Documents\STK 11 (x64)\STK_Cert_JohnathanSteffen_V11
+            SnapFileType             BMP
+            SnapOutputMode           Normal
+            OutputSnapToClipboard    No
+            SnapAntiAliasStrength    0
+            ShadeSkyByAlt            Yes
+            BackGroundColor          #000000
+            BackGroundRGB            0.000000 0.000000 0.000000
+
+            Begin Globe
+AA Yes
+BeginCentralBody "Earth"
+    Show Yes
+    Textured Yes
+    AltOffset 0.000000
+    Color #0000ff
+    SpecularColor #545454
+    Shininess 40.000000
+    ShowWater No
+    _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+        BlendMode Value
+        BlendFactor 1.000000
+        BlendAltitudeLowerFactor 1.000000
+        BlendAltitudeUpperFactor 0.000000
+        BlendAltitudeLowerAltitude 10000.000000
+        BlendAltitudeUpperAltitude 100000.000000
+        TextureRole Day
+        URI "file:///Earth_PE_b.jp2"
+        BeginImageSetDefOn
+        End
+        InBase Yes
+        BaseOn Yes
+    End
+EndCentralBody
+BeginCentralBody "Sun"
+    Show Yes
+    Textured No
+    AltOffset 0.000000
+    Color #ffff00
+    SpecularColor #545454
+    Shininess 40.000000
+    ShowWater No
+    _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+        BlendMode Value
+        BlendFactor 1.000000
+        BlendAltitudeLowerFactor 1.000000
+        BlendAltitudeUpperFactor 0.000000
+        BlendAltitudeLowerAltitude 500000.000000
+        BlendAltitudeUpperAltitude 2500000.000000
+        TextureRole Day
+        URI "file:///Sun.jp2"
+        BeginImageSetDefOn
+        End
+        InBase Yes
+        BaseOn Yes
+    End
+EndCentralBody
+BeginCentralBody "Moon"
+    Show Yes
+    Textured Yes
+    AltOffset 0.000000
+    Color #ffffff
+    SpecularColor #545454
+    Shininess 40.000000
+    ShowWater No
+    _AGI_PIBEGINTERRAINIMAGECALLDATA "SRC"
+        BlendMode Value
+        BlendFactor 1.000000
+        BlendAltitudeLowerFactor 1.000000
+        BlendAltitudeUpperFactor 0.000000
+        BlendAltitudeLowerAltitude 500000.000000
+        BlendAltitudeUpperAltitude 2500000.000000
+        TextureRole Day
+        URI "file:///Moon.jp2"
+        BeginImageSetDefOn
+        End
+        InBase Yes
+        BaseOn Yes
+    End
+EndCentralBody
+            End Globe
+
+            IsShowingArcBall         Yes
+            IsShowingArcBallConstraintAxis No
+            ArcBallColor             #ff00ff
+            ArcBallTranslucency      0.500000
+            UseCameraInertia         Yes
+            IsShowingMap             No
+            MapResolution            Medium
+            MapLineType              Surface
+            MapFadeFactor            1.000000
+            Begin Border3dLineAttr
+                Width            1.000000
+                Style            0
+                Color            #8fbc8f
+            End Border3dLineAttr
+            GlobeTesselationFactor   1.000000
+            IsShowingClouds          No
+            CloudAltitude            50068.375000
+            CloudTesselationFactor   1.000000
+            ShowingTimeAsFPS         No
+            ShowingUpdateDelta       Yes
+            CloudFileIndexURI        "file:///Clouds.cld"
+            LightingEnabled          Yes
+            ObjectLightingEnabled    Yes
+            SolarIntensityLightingEnabled Yes
+            IsUsingPerPixelLighting  Yes
+            AmbientLight             25.000000
+            ObjectAmbientLight       25.000000
+            DayDirectLight           500.000000
+            NightDirectLight         500.000000
+            ObjectDirectLight        100.000000
+            EnablePositionalLighting Yes
+            EquatorLine              No
+            GreenwichLine            No
+            Zoom2dMap              No
+            Begin EqPrmMer3dLineAttr
+                Width            1.000000
+                Style            0
+                Color            #0000ff
+            End EqPrmMer3dLineAttr
+            AreaMask              No
+            Begin AreaMask3dLineAttr
+                Width            1.000000
+                Style            0
+                Color            #ffffff
+            End AreaMask3dLineAttr
+            IsShowingCelestialGrid   No
+            IsShowingCelestGridText  Yes
+            Begin Celestial3dLineAttr
+                Width            1.000000
+                Style            0
+                Color            #4d4d4d
+            End Celestial3dLineAttr
+            IsShowingSunshine        Yes
+            IsShowingSubSolarPoint   No
+            IsShowingPenumbraLimit   No
+            IsShowingUmbraCone       No
+            UmbraConeRGB             1.000000 0.000000 0.300000
+            IsShowingPenumbraCone    No
+            PenumbraConeRGB          0.941000 0.941000 0.392000
+            Begin CSData
+                Show       Yes
+                ShowPts    Yes
+                ShowTx     No
+                ShowLabels No
+                UseDefStarCollection Yes
+                BrightestStarMag     -1.000000
+                BrightestStarPtSize  5.000000
+                BrightestStarPtAlpha 1.000000
+                MediumStarMag        7.000000
+                MediumStarPtSize     1.000000
+                MediumStarPtAlpha    0.750000
+                DimmestStarMag       12.000000
+                DimmestStarPtSize    0.100000
+                DimmestStarPtAlpha   0.200000
+                ColorStarsByMag      No
+                StarColor            #ffffff
+                StarUpdateFrequency  365.000000
+            End
+            Begin CentralBodyOpts
+                BeginCentralBody
+                    Name "Earth"
+                    ShowLabel No
+                EndCentralBody
+                BeginCentralBody
+                    Name "Sun"
+                    ShowLabel No
+                EndCentralBody
+                BeginCentralBody
+                    Name "Moon"
+                    ShowLabel Yes
+                EndCentralBody
+            End CentralBodyOpts
+            isShowingOverlay            Yes
+            Begin Overlays
+                Begin Overlay
+                    URI "file:///AGI_logo.png"
+                    Show Yes
+                    X 0
+                    Y 0
+                    Transparent Yes
+                    TransparentColorFirstPixel No
+                    SetAlphaFromLuminance Yes
+                    Scale 1.000000
+                    BorderAttachTypeX Max
+                    BorderAttachTypeY Min
+                End
+            End
+            IsShowingTimeDisplay     Yes
+            TimeDisplayPosition      10 5
+            TimeAttachX              Min
+            TimeAttachY              Min
+            TimeDisplayFontSize      0
+            TimeDisplayColor         #00ff00
+            TimeVertTextAlign        Border
+            IsShowingPositionDisplay No
+            ShowDistanceToViewObj    No
+            PositionDisplayPosition  10 45
+            PositionAttachX          Min
+            PositionAttachY          Min
+            PositionDisplayFontSize  0
+            PositionDisplayColor     #00ff00
+            PositionVertTextAlign    Border
+            IsShowingPositionOn2DMap No
+            PositionOn2DMapStyle     1
+            IsShowingCrdnFrame       Yes
+            CrdnFrameDisplayPosition 10 25
+            CrdnAttachX              Min
+            CrdnAttachY              Min
+            CrdnFrameDisplayFontSize 0
+            CrdnVertTextAlign        Border
+            CrdnFrameDisplayColor    #00ff00
+            IsShowingSpaceGridText   No
+            GridRadialLines          Yes
+            GridRadialResolution     3
+            GridPlaneEcliptic        No
+            Begin Ecliptic3dLineAttr
+                Width            1.000000
+                Style            0
+                Color            #00ff00
+            End Ecliptic3dLineAttr
+            GridPlaneEci             No
+            Begin ECI3dLineAttr
+                Width            1.000000
+                Style            0
+                Color            #00ff00
+            End ECI3dLineAttr
+            GridDisplayPosition      10 45
+            GridAttachX              Min
+            GridAttachY              Min
+            GridDisplayFontSize      0
+            GridDisplayColor         #00ff00
+            GridVertTextAlign        Border
+            IsShowingPickAnnotation  Yes
+            UsePickAnnoPosition      No
+            PickAnnoPosition         10 65
+            PickAttachX              Min
+            PickAttachY              Min
+            PickAnnoFontSize         1
+            PickAnnoColor            #ffffff
+            PickHitMode              DoClosestPickHit
+            PickVertTextAlign        Border
+            MinimumViewingAltitude   0.000000
+            StopViewAtAltitude       No
+            StopViewAtObject         Yes
+            PreventViewFrustumCBIntersection Yes
+            PixelAspectRatio         1.000000
+            AntiAliasStrength        0
+            UseMotionBlur            No
+            MotionBlurLength         0.500000
+            UseDepthConeBufferCrossover No
+            DepthConeBufferCrossover 1000.00
+            MeshPixelError           2.000000
+            ChunkTexturePixelError   1.000000
+            EnableBorderViewport     No
+            BorderViewportLoc        Right
+            BorderViewportDim        256
+            BorderViewportColorIndex #4d4d4d
+            BorderViewportLineWidth  2
+    Begin GeneralVectorAxes
+        ArrowPointSize          3.00
+        PersistentLineWidth     2.00
+        Scale                   1.000000
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Inertial"
+            CentralBody Earth
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Fixed"
+            CentralBody Earth
+        End
+        Duration                3600.000
+        IsShowing               No
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #8fbc8f
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Fixed"
+            CentralBody Earth
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Fixed"
+            CentralBody Earth
+        End
+        Duration                3600.000
+        IsShowing               No
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #0000ff
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector Yes
+            IsCentralBodyFrame Yes
+            Name "Sun"
+            CentralBody Earth
+            MagUnit m
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Inertial"
+            CentralBody Earth
+        End
+        Duration                3600.000
+        IsShowing               No
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #ffff00
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector Yes
+            IsCentralBodyFrame Yes
+            Name "Moon"
+            CentralBody Earth
+            MagUnit m
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Inertial"
+            CentralBody Earth
+        End
+        Duration                3600.000
+        IsShowing               No
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #ffffff
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector Yes
+            IsCentralBodyFrame Yes
+            Name "ICRF-Z"
+            CentralBody Earth
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Fixed"
+            CentralBody Earth
+        End
+        Duration                3600.000
+        IsShowing               No
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #ba55d3
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAxes
+        Begin CrdnDef
+            IsVector Yes
+            IsCentralBodyFrame Yes
+            Name "ICRF-X"
+            CentralBody Earth
+        End
+        Begin RefCrdn
+            IsVector No
+            IsCentralBodyFrame Yes
+            Name "Fixed"
+            CentralBody Earth
+        End
+        Duration                3600.000
+        IsShowing               No
+        IsPersistent            No
+        IsTransparent           No
+        DrawFirstArrowOnly      Yes
+        UseTrueScale            No
+        DrawAtCentralBody       No
+        ArrowType               3D
+        ConnectType             Sweep
+        ColorIndex              #fff0f5
+        IntervalType            AlwaysOn
+        AngleUnit               deg
+    End
+    Begin VectorAngle
+        FractionalScale                1.000000
+        SupportingDihedralArcLineWidth 1.00
+        ArcLineWidth                   2.00
+        PixelThreshold                 0.500000
+        Begin VectorAngleData
+            Name                    "SunRA"
+            CBName                  Earth
+            Show                    No
+            ShowLabel               No
+            ShowAngle               No
+            ShowDihedralAngleSupportingArcs Yes
+            ColorIndex              #6b8e23
+            IntervalType            AlwaysOn
+            Unit                    deg
+        End
+    End
+    Begin Plane
+    End
+            CBObscuring              No
+            BEGIN AOSLOSAnnotationData 
+                ShowAOSLOS           No
+                ColorIndex           #00ff00
+                FontIndex            0
+                XPosition            10.000000
+                YPosition            100.000000
+                UnitID               0
+                Location             3DWindow
+            END AOSLOSAnnotationData 
+            JoySupport               No
+            RubberBandLineWidth       2.000000
+            RubberBandCrosshairSize   16
+            RubberBandRGB             0.660000 0.660000 0.660000
+    _AGI_PIBEGINTYPEMGR3DSCENEDATA
+        Begin 3dScene
+        End
+    End
+            Begin View
+                ViewName                STKVOInitialView
+                ViewTime                0.000000
+                ViewUpdateDelta         60.000000
+                CentralBody             Earth
+                Begin ViewCrdnAxes
+					BEGIN	AXES
+						Type	AXES_LINKTO
+						Name	TopoCentric
+						RelativePath	Place/Ica
+					END	AXES
+                End
+                Begin FromViewCrdnPoint
+					BEGIN	POINT
+						Type	POINT_LINKTO
+						Name	Center
+						RelativePath	Place/Ica
+					END	POINT
+                End
+                Begin ToViewCrdnPoint
+					BEGIN	POINT
+						Type	POINT_LINKTO
+						Name	Center
+						RelativePath	Place/Ica
+					END	POINT
+                End
+                fov                           0.785398
+                FarNearPlaneDistanceRatio     1000.000000
+                NearPlaneDistance             1.000000
+                FarPlaneDistance              10000000000.000000
+                PanOnCentralBodies      Yes
+                UseArcBallRotateSpeedOpt      No
+                ArcBallRotateSpeed            0.000000
+                ArcBallRadius           0.900000
+                ArcBallRotateMode       From
+                ZoomSpeed               0.000000
+                ZoomUseDistanceToCb     Yes
+                GlobeDetailLevel        1
+                UseLayer                Yes
+                FromName                "Place/Ica"
+                FromRegPosAttView       "Point"
+                FromPosition            -2975413.396194699220359325  -6188479.632998771034181118  -1710697.060071412939578295
+                FromOffset              -298393.110459550516679883  -608458.216758877853862941  -173955.412921687588095665
+                FromOffsetLLR           1.560324350534946891  -0.922601873202089529  699657.298679770668968558
+                ToName                  "Place/Ica"
+                ToRegPosAttView         "Point"
+                ToPosition              -2677020.285735148936510086  -5580021.416239893063902855  -1536741.647149725351482630
+                ToOffset                0.000000000000000000  0.000000000000000000  -0.000000000000000000
+                ToOffsetLLR             0.000000000000000000  0.000000000000000000  0.000000000000000000
+                ConstantDistanceType    None
+                ConstantDistanceValue   1.000000
+                UpVector                0.651667032524041123  -0.486060473869707965  0.582301721157395757
+                ViewRad                 699657.298679770785383880
+                ViewQuat                0.3163864 -0.6298718 0.3130904 0.6365026
+                ViewCoordSystem         From
+                ViewFromToMode          FromTo
+                ViewToCBIMtx            0.103909585167550181 0.219132283535106720 -0.970146298463792300 0.901724706799530762 -0.432309397016062469 -0.001066957782124012  -0.419637166201479339 -0.874694019394381295 -0.242518084228978470
+                UseUpAxis               Yes
+                UpAxisType              Z
+                UserDefinedUpAxis       0.000000000000000000 0.000000000000000000 1.000000000000000000
+                OverUpAxis              No
+                LockInViewDir           No
+                NoZoom                  No
+                NoPan                   No
+                MinAngleToUpAxis        0.0087266
+                InitUpAxisUp            Yes
+                TempUpAxisUp            Yes
+                CrossAxis               -0.7971752 -0.6037481 0.0000000
+                DefaultOffset           187.5000000
+                BaseDefaultOffset       150.0000000
+            End View
+
+            Begin ViewPathManagerSceneInfo
+                ActiveViewPath                      "Path0"
+                FollowViewPath                      No
+                ActiveCtrlPt                        -1
+                ShowTrackball                       Yes
+            End ViewPathManagerSceneInfo
+        End Scene
+    End SceneWindow
+    Begin View
+        ViewName                HomeView
+        ViewTime                191023563.000000
+        ViewUpdateDelta         10.000000
+        CentralBody             Earth
+        Begin ViewCrdnAxes
+			BEGIN	AXES
+				Type	AXES_LINKTO
+				Name	Inertial
+				AbsolutePath	CentralBody/Earth
+			END	AXES
+        End
+        Begin FromViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				AbsolutePath	CentralBody/Earth
+			END	POINT
+        End
+        Begin ToViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				AbsolutePath	CentralBody/Earth
+			END	POINT
+        End
+        fov                           0.785398
+        FarNearPlaneDistanceRatio     1000.000000
+        NearPlaneDistance             1.000000
+        FarPlaneDistance              10000000000.000000
+        PanOnCentralBodies      Yes
+        UseArcBallRotateSpeedOpt      No
+        ArcBallRotateSpeed            0.000000
+        ArcBallRadius           0.900000
+        ArcBallRotateMode       From
+        ZoomSpeed               0.000000
+        ZoomUseDistanceToCb     Yes
+        GlobeDetailLevel        1
+        UseLayer                Yes
+        FromName                "Earth"
+        FromRegPosAttView       "Point"
+        FromPosition            -19753876.850068084895610809  -28989195.487510625272989273  0.000000000000000000
+        FromOffset              0.000000000000000000  0.000000000000000000  0.000000000000000000
+        FromOffsetLLR           0.000000000000000000  -2.168944746452042160  35079753.500000000000000000
+        ToName                  "Earth"
+        ToRegPosAttView         "Point"
+        ToPosition              0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ToOffset                0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ToOffsetLLR             0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ConstantDistanceType    None
+        ConstantDistanceValue   1.000000
+        UpVector                0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ViewRad                 35079753.500000000000000000
+        ViewQuat                0.8840569 0.0000000 0.0000000 0.4673792
+        ViewCoordSystem         From
+        ViewFromToMode          FromTo
+        ViewToCBIMtx            0.000000000000000000 0.000000000000000000 0.000000000000000000 0.000000000000000000 0.000000000000000000 0.000000000000000000  0.000000000000000000 0.000000000000000000 0.000000000000000000
+        UseUpAxis               Yes
+        UpAxisType              Z
+        UserDefinedUpAxis       0.000000000000000000 0.000000000000000000 1.000000000000000000
+        OverUpAxis              No
+        LockInViewDir           No
+        NoZoom                  No
+        NoPan                   No
+        MinAngleToUpAxis        0.0087266
+        InitUpAxisUp            Yes
+        TempUpAxisUp            Yes
+        CrossAxis               1.0000000 0.0000000 0.0000000
+        DefaultOffset           35079753.5000000
+        BaseDefaultOffset       6378137.0000000
+    End View
+    Begin View
+        ViewName                Quake Region
+        ViewTime                0.000000
+        ViewUpdateDelta         60.000000
+        CentralBody             Earth
+        Begin ViewCrdnAxes
+			BEGIN	AXES
+				Type	AXES_LINKTO
+				Name	TopoCentric
+				RelativePath	Place/Ica
+			END	AXES
+        End
+        Begin FromViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				RelativePath	Place/Ica
+			END	POINT
+        End
+        Begin ToViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				RelativePath	Place/Ica
+			END	POINT
+        End
+        fov                           0.785398
+        FarNearPlaneDistanceRatio     1000.000000
+        NearPlaneDistance             1.000000
+        FarPlaneDistance              10000000000.000000
+        PanOnCentralBodies      Yes
+        UseArcBallRotateSpeedOpt      No
+        ArcBallRotateSpeed            0.000000
+        ArcBallRadius           0.900000
+        ArcBallRotateMode       From
+        ZoomSpeed               0.000000
+        ZoomUseDistanceToCb     Yes
+        GlobeDetailLevel        1
+        UseLayer                Yes
+        FromName                "Place/Ica"
+        FromRegPosAttView       "Point"
+        FromPosition            -2975413.396194699220359325  -6188479.632998771034181118  -1710697.060071412706747651
+        FromOffset              -298393.110459550283849239  -608458.216758877970278263  -173955.412921687355265021
+        FromOffsetLLR           1.560324350534946891  -0.922601873202089529  699657.298679770668968558
+        ToName                  "Place/Ica"
+        ToRegPosAttView         "Point"
+        ToPosition              -2677020.285735148936510086  -5580021.416239893063902855  -1536741.647149725351482630
+        ToOffset                0.000000000000000000  0.000000000000000000  -0.000000000000000000
+        ToOffsetLLR             0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ConstantDistanceType    None
+        ConstantDistanceValue   1.000000
+        UpVector                0.651667032524056555  -0.486060473869710075  0.582301721157376551
+        ViewRad                 699657.298679770901799202
+        ViewQuat                0.3163864 -0.6298718 0.3130904 0.6365026
+        ViewCoordSystem         From
+        ViewFromToMode          FromTo
+        ViewToCBIMtx            0.103909585167550181 0.219132283535106720 -0.970146298463792300 0.901724706799530762 -0.432309397016062469 -0.001066957782124012  -0.419637166201479339 -0.874694019394381295 -0.242518084228978470
+        UseUpAxis               Yes
+        UpAxisType              Z
+        UserDefinedUpAxis       0.000000000000000000 0.000000000000000000 1.000000000000000000
+        OverUpAxis              No
+        LockInViewDir           No
+        NoZoom                  No
+        NoPan                   No
+        MinAngleToUpAxis        0.0087266
+        InitUpAxisUp            Yes
+        TempUpAxisUp            Yes
+        CrossAxis               -0.7971752 -0.6037481 0.0000000
+        DefaultOffset           187.5000000
+        BaseDefaultOffset       150.0000000
+    End View
+    Begin View
+        ViewName                Aircraft
+        ViewTime                1335.000000
+        ViewUpdateDelta         5.000000
+        CentralBody             Earth
+        Begin ViewCrdnAxes
+			BEGIN	AXES
+				Type	AXES_LINKTO
+				Name	TopoCentric
+				RelativePath	Aircraft/CertAircraft
+			END	AXES
+        End
+        Begin FromViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				RelativePath	Aircraft/CertAircraft
+			END	POINT
+        End
+        Begin ToViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				RelativePath	Aircraft/CertAircraft
+			END	POINT
+        End
+        fov                           0.785398
+        FarNearPlaneDistanceRatio     1000.000000
+        NearPlaneDistance             1.000000
+        FarPlaneDistance              10000000000.000000
+        PanOnCentralBodies      Yes
+        UseArcBallRotateSpeedOpt      No
+        ArcBallRotateSpeed            0.000000
+        ArcBallRadius           0.900000
+        ArcBallRotateMode       From
+        ZoomSpeed               0.000000
+        ZoomUseDistanceToCb     Yes
+        GlobeDetailLevel        1
+        UseLayer                Yes
+        FromName                "Aircraft/CertAircraft"
+        FromRegPosAttView       "Point"
+        FromPosition            -2157448.287531635724008083  -5842516.038359073922038078  -1537110.854525885079056025
+        FromOffset              -9480.440711572766304016  -24913.150532924570143223  -6507.469196392223238945
+        FromOffsetLLR           1.560324350534915361  -1.970724579884866712  27438.858957759155600797
+        ToName                  "Aircraft/CertAircraft"
+        ToRegPosAttView         "Point"
+        ToPosition              -2147967.846820062957704067  -5817602.887826149351894855  -1530603.385329492855817080
+        ToOffset                0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ToOffsetLLR             0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ConstantDistanceType    None
+        ConstantDistanceValue   1.000000
+        UpVector                0.892694045608203868  -0.240084562514992855  -0.381387917713242541
+        ViewRad                 27438.858957759308395907
+        ViewQuat                0.5924317 -0.3886686 0.5862600 0.3927602
+        ViewCoordSystem         From
+        ViewFromToMode          FromTo
+        ViewToCBIMtx            0.082451811667476976 0.226612087017972252 -0.970488877200614830 0.938194339512215425 -0.346107138765130329 -0.001108964856491090  -0.336144433331847736 -0.910415734987688907 -0.241143337927542917
+        UseUpAxis               Yes
+        UpAxisType              Z
+        UserDefinedUpAxis       0.000000000000000000 0.000000000000000000 1.000000000000000000
+        OverUpAxis              No
+        LockInViewDir           No
+        NoZoom                  No
+        NoPan                   No
+        MinAngleToUpAxis        0.0087266
+        InitUpAxisUp            Yes
+        TempUpAxisUp            Yes
+        CrossAxis               -0.9210889 0.3893523 0.0000000
+        DefaultOffset           93.7500000
+        BaseDefaultOffset       75.0000000
+    End View
+    Begin View
+        ViewName                Sat_Over_Ica
+        ViewTime                3858.507848
+        ViewUpdateDelta         10.000000
+        CentralBody             Earth
+        Begin ViewCrdnAxes
+			BEGIN	AXES
+				Type	AXES_LINKTO
+				Name	ICR
+				RelativePath	Satellite/CertSatellite
+			END	AXES
+        End
+        Begin FromViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				RelativePath	Satellite/CertSatellite
+			END	POINT
+        End
+        Begin ToViewCrdnPoint
+			BEGIN	POINT
+				Type	POINT_LINKTO
+				Name	Center
+				RelativePath	Satellite/CertSatellite
+			END	POINT
+        End
+        fov                           0.785398
+        FarNearPlaneDistanceRatio     1000.000000
+        NearPlaneDistance             1.000000
+        FarPlaneDistance              10000000000.000000
+        PanOnCentralBodies      Yes
+        UseArcBallRotateSpeedOpt      No
+        ArcBallRotateSpeed            0.000000
+        ArcBallRadius           0.900000
+        ArcBallRotateMode       From
+        ZoomSpeed               0.000000
+        ZoomUseDistanceToCb     Yes
+        GlobeDetailLevel        1
+        UseLayer                Yes
+        FromName                "Satellite/CertSatellite"
+        FromRegPosAttView       "Point"
+        FromPosition            -2818631.259975336492061615  -10538032.632886722683906555  -2833122.326987789943814278
+        FromOffset              -1175582.795417887158691883  -4285727.960604634135961533  -1157821.790464573772624135
+        FromOffsetLLR           1.560324350534925797  -2.950337527400499926  4592386.129199666902422905
+        ToName                  "Satellite/CertSatellite"
+        ToRegPosAttView         "Point"
+        ToPosition              -1643048.464557449333369732  -6252304.672282088547945023  -1675300.536523216171190143
+        ToOffset                0.000000000000000000  -0.000000000000000000  0.000000000000000000
+        ToOffsetLLR             0.000000000000000000  0.000000000000000000  0.000000000000000000
+        ConstantDistanceType    None
+        ConstantDistanceValue   1.000000
+        UpVector                0.948959519391731399  -0.292305066683970938  0.118463405939108105
+        ViewRad                 4592386.129199665039777756
+        ViewQuat                0.7075520 -0.0671615 0.7001810 0.0678685
+        ViewCoordSystem         From
+        ViewFromToMode          FromTo
+        ViewToCBIMtx            0.969261237696251277 -0.237650477092963941 -0.063678126833458457 -0.000000138040714207 -0.258819090354638959 0.965925814163788865  -0.246033845434957044 -0.936234441368979042 -0.250863344661996723
+        UseUpAxis               Yes
+        UpAxisType              Z
+        UserDefinedUpAxis       0.000000000000000000 0.000000000000000000 1.000000000000000000
+        OverUpAxis              No
+        LockInViewDir           No
+        NoZoom                  No
+        NoPan                   No
+        MinAngleToUpAxis        0.0087266
+        InitUpAxisUp            Yes
+        TempUpAxisUp            Yes
+        CrossAxis               -0.1900913 0.9817664 0.0000000
+        DefaultOffset           9468.7500000
+        BaseDefaultOffset       7575.0000000
+    End View

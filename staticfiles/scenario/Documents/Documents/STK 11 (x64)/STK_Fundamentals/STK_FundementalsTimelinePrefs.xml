@@ -1,0 +1,16 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "11.2.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "STK_Fundementals AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_Fundementals" Type = "IntervalList">
+                <Interval Name = "STK_Fundementals AvailabilityIntervals" StartTime = "1 Nov 2017 16:00:00.000" StopTime = "2 Nov 2017 16:00:00.000" />
+            </Row>
+            <Row ClassName = "Aircraft" ComponentName = "AvailabilityTimeSpan" DisplayName = "Aircraft1 AvailabilityTimeSpan" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/STK_Fundementals/Aircraft/Aircraft1" Type = "Interval">
+                <Interval Name = "Aircraft1 AvailabilityTimeSpan" StartTime = "1 Nov 2017 16:00:00.000" StopTime = "1 Nov 2017 19:24:21.467" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/STK_Fundementals" GlobalStartOffset = "0.000000" GlobalStartTime = "1 Nov 2017 16:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "2 Nov 2017 16:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

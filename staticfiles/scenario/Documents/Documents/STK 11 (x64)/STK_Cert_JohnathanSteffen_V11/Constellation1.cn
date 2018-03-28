@@ -1,0 +1,44 @@
+stk.v.11.0
+WrittenBy    STK_v11.2.0
+
+BEGIN Constellation
+
+Name  Constellation1
+BEGIN Definition
+
+   Type        Constellation
+   Operator    Or
+   Order       1
+   ToParentConstraint    AnyParent
+   FromParentConstraint  AnyParent
+    Object  Satellite/Aqua_27424
+    Object  Satellite/Aura_28376
+    Object  Satellite/Cloudsat_29107
+    Object  Satellite/Coriolis_27640
+    Object  Satellite/Geoeye1_33331
+    Object  Satellite/Landsat8_39084
+    Object  Satellite/Terra_25994
+    Object  Satellite/Worldview1_32060
+    Object  Satellite/Worldview2_35946
+   SaveMode    0
+   UseLoadIntervalFile    No
+
+END Definition
+
+BEGIN Extensions
+    
+    BEGIN ADFFileData
+    END ADFFileData
+    
+    BEGIN Desc
+    Begin ShortText
+
+    End ShortText
+    Begin LongText
+
+    End LongText
+    END Desc
+
+END Extensions
+
+END Constellation

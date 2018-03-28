@@ -1,0 +1,8 @@
+Adding a new app:
+* $python manage.py startapp [APP]
+* Settings.py
+* Main URLConf
+* App views
+* App urls
+* add/cleanup templates
+* Fix navbar

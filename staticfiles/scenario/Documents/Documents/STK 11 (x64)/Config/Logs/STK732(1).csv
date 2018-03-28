@@ -1,0 +1,5 @@
+"Type","TypeDesc","ErrorCode","Filename","LineNumber","DateTime","ComputerName","UserName","Message"
+3,"Default",0,"iaguipluginsiteimpl.hpp",50,12/07/2017 14:17:07,"ACEDESK3","sjones","QualNet Interface:  Unable to find registry information or the QUALNET_HOME environment variable for the QualNet install."
+1,"Default",0,"iaguipluginsiteimpl.hpp",50,12/07/2017 14:17:07,"ACEDESK3","sjones","QualNet Interface:  Loading QualNet UI xml files from ""C:\Program Files\AGI\STK 11\STK-QualNet Interface\QualNetUI\gui\settings""."
+3,"Default",0,"iaguipluginsiteimpl.hpp",50,12/07/2017 14:17:08,"ACEDESK3","sjones","QualNet Interface:  The executable (qualnet.exe) could not be found in the install location.  Make sure there is a valid install of QualNet on the current machine."
+1,"Default",0,"",0,12/07/2017 14:17:17,"ACEDESK3","sjones","Version 11.3.0 of STK is now available online."

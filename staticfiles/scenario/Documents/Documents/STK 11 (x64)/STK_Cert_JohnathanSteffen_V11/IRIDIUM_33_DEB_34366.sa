@@ -1,0 +1,19 @@
+STK.V.9.0
+WrittenBy    AGI.Framework
+BEGIN Satellite
+	Name		IRIDIUM_33_DEB_34366
+BEGIN VehiclePath
+	CentralBody				Earth
+	BEGIN SGP4
+		VersionIndicator    20080918
+		SSCNumber           34366
+		IntlDesignator      1997-051FJ
+		CommonName          IRIDIUM 33 DEB
+		TimeStep    60.0
+	END SGP4
+END VehiclePath
+BEGIN Extensions
+	BEGIN Desc
+	END Desc
+END Extensions
+END Satellite

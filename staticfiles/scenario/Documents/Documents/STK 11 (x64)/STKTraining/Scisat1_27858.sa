@@ -1,0 +1,50 @@
+STK.V.9.0
+WrittenBy    StandardObjectCatalog
+BEGIN Satellite
+	Name		Scisat1_27858
+BEGIN VehiclePath
+	CentralBody				Earth
+	BEGIN SGP4
+		VersionIndicator    20080918
+		SSCNumber           27858
+		TimeStep            60.0
+		IntlDesignator      2003-036A
+		CommonName          SCISAT-1
+	END SGP4
+END VehiclePath
+BEGIN Attitude
+	BEGIN Profile
+		BEGIN ECFVVLH
+		END ECFVVLH
+	END Profile
+END Attitude
+BEGIN Extensions
+	BEGIN Desc
+		ShortText 8
+SCISAT-1
+		LongText 656
+SCISAT-1
+CatalogNumber: 27858
+InternationalID: 2003-036A
+Civilian satellite
+Status             	: Active
+Classification Notes	: SCISAT-1's mission is to take a variety of measurements in the Earth's stratosphere and troposphere to study ozone depletion, particularly above Canada and the Arctic region.
+MISSION: 
+  Mission Class: Scientific
+
+
+ORBIT INFORMATION:
+
+Launch Date   	: 2003-08-13
+Launch notes  	: 
+
+PLATFORM NOTES:
+Shape: 
+ShapeType: Cylindrical
+   1.12 [Meters] {Width}
+   1.04 [Meters] {Length}
+
+https://sdf10.agi.com/content/files/STK Standard Objects/Spacecraft/SCISAT/AGI.Data.StandardObjectCatalog.Stk.StkObjectData.sa
+	END Desc
+END Extensions
+END Satellite

@@ -1,0 +1,95 @@
+stk.v.11.0
+WrittenBy    STK_v11.2.0
+
+BEGIN AreaTarget
+
+Name        Runway
+
+	BEGIN CentroidPosition
+
+		CentralBody            Earth
+		AutoCentroid           On
+		EcfLatitude            -1.216070e+01
+		EcfLongitude           -7.699895e+01
+		EcfAltitude            0.000000e+00
+		UseTerrainInfo         On
+		DisplayCoords          Geodetic
+
+		AreaType               Pattern
+		AreaValue          1.17750125008130e+05
+		NumberOfPolygonPts     5
+
+		BEGIN PolygonPoints
+
+			-1.21501000000000e+01	-7.69957000000000e+01	0.00000000000000e+00
+			-1.21711000000000e+01	-7.70026000000000e+01	0.00000000000000e+00
+			-1.21713000000000e+01	-7.70022000000000e+01	0.00000000000000e+00
+			-1.21503000000000e+01	-7.69953000000000e+01	0.00000000000000e+00
+			-1.21501000000000e+01	-7.69957000000000e+01	0.00000000000000e+00
+
+		END PolygonPoints
+
+        BoundaryType           GreatArc
+        Granularity            0.008727
+
+	END CentroidPosition
+
+BEGIN Extensions
+    
+    BEGIN ExternData
+    END ExternData
+    
+    BEGIN ADFFileData
+    END ADFFileData
+    
+    BEGIN AccessConstraints
+		LineOfSight   IncludeIntervals 
+		ElevationAngle		2.0000000000e+00   IncludeIntervals 
+    END AccessConstraints
+    
+    BEGIN Desc
+    END Desc
+    
+    BEGIN Crdn
+    END Crdn
+    
+    BEGIN Graphics
+
+            BEGIN Attributes
+
+                MarkerColor             #ffd700
+                PolygonColor            #ffd700
+                LabelColor              #ffd700
+                LineStyle               0
+                LineWidth               1.0
+                FillTranslucency        0.500000
+                MarkerStyle             0
+                FontStyle               0
+
+            END Attributes
+
+            BEGIN Graphics
+
+                ShowGfx                 On
+                Inherit                 On
+                ShowCentroid            On
+                ShowBoundaryPts         Off
+                ShowLabel               On
+                Filled                  Off
+                SymmetricFill           Off
+                ShowBoundingRect        Off
+
+            END Graphics
+
+        BEGIN DisplayTimes
+            DisplayType	AlwaysOn
+        END DisplayTimes
+    END Graphics
+    
+    BEGIN VO
+    END VO
+
+END Extensions
+
+END AreaTarget
+

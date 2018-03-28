@@ -1,0 +1,36 @@
+{% extends "theme/base.html" %}
+{% load staticfiles %}
+{% load static %}
+
+{% block breadcrumb__links %}
+  <li class="breadcrumb__primary"><a href="{% url 'home:index' %}">Home</a></li>
+  <li class="breadcrumb__addon"><i class="fa fa-angle-double-right"></i></li>
+  <li class="breadcrumb__addon"><span><a href="{% url 'molecules:index' %}">Molecules</a></span></li>
+  <li class="breadcrumb__addon"><i class="fa fa-angle-double-right"></i></li>
+  <!-- <li class="breadcrumb__addon"><span><a href="{% url 'molecules:molecules35' %}">v3.5 MW List</a></span></li>
+  -->
+  <li class="breadcrumb__addon"><span><a href="{% static "theme/documents/ACE-SOC-0027-ACE-FTS_Spectroscopy-version_3.5_Jan222016_Rev1A.pdf" %}">v3.5 MW List</a></span></li>
+{% endblock breadcrumb__links %}
+
+{% block content %}
+	<h1>Molecules v3.5 MW List</h1>
+<!--  opens the document in a window
+	<div >
+	    <object data="{% static "theme/documents/ACE-SOC-0027-ACE-FTS_Spectroscopy-version_3.5_Jan222016_Rev1A.pdf" %}" type="application/pdf" width=100% height=150%> 
+                   <p>3.5 list <a href="{% static "theme/documents/ACE-SOC-0027-ACE-FTS_Spectroscopy-version_3.5_Jan222016_Rev1A.pdf " %}"> download PDF></a>.</p>
+	</div>
+-->
+
+
+	<h1>Molecules v3.5 use href</h1>
+		<div >
+                    <!-- get a 70-page document from another server -->
+		    <a href="www.ace.uwaterloo.ca/misc/ACE-SOC-0027-ACE-FTS_Spectroscopy-version_3.5_Jan222016_Rev1A.pdf" type="application/pdf" >v3.5 list</a>
+                    <!-- display a local version of test ACE document on the page -->
+                    <p>the test pdf<a href="{% static "theme/documents/test ACE.pdf" %}"> test ACE download PDF.</a></p>
+		    <!--
+		    <object data="{% static "theme/documents/mission pdf.pdf" %}" type="application/pdf" width=100% height=100%>
+                    <p>the test pdf<a href="{% static "theme/documents/test ACE.pdf" %}"> test ACE download PDF></a>.</p>
+                    -->
+		</div>
+{% endblock %}

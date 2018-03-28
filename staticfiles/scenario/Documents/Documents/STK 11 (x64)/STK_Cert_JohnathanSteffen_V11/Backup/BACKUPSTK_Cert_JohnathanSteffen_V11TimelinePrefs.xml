@@ -1,0 +1,53 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "11.2.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "BACKUPSTK_Cert_JohnathanSteffen_V11 AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11" Type = "IntervalList">
+                <Interval Name = "BACKUPSTK_Cert_JohnathanSteffen_V11 AvailabilityIntervals" StartTime = "28 Oct 2011 18:54:00.000" StopTime = "28 Oct 2011 23:54:00.000" />
+            </Row>
+            <Row ClassName = "Place" ComponentName = "LightingIntervals" DisplayName = "Ica LightingIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica" Type = "CollectionOfIntervals">
+                <Interval Color = "Black" FontColor = "Gray" Name = "Umbra" Opacity = "0.8" StartTime = "28 Oct 2011 23:01:22.931" StopTime = "28 Oct 2011 23:54:00.000" />
+                <Interval Color = "DarkBlue" FontColor = "Gray" Name = "Penumbra" Opacity = "0.8" StartTime = "28 Oct 2011 22:59:06.368" StopTime = "28 Oct 2011 23:01:22.931" />
+                <Interval Color = "Yellow" FontColor = "Black" Name = "Sunlight" Opacity = "0.6" StartTime = "28 Oct 2011 18:54:00.000" StopTime = "28 Oct 2011 22:59:06.368" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Aircraft-CertAircraft-Sensor-AC_Camera-To-AreaTarget-Runway AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Aircraft/CertAircraft/Sensor/AC_Camera;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/AreaTarget/Runway" Type = "IntervalList">
+                <Interval Name = "Aircraft-CertAircraft-Sensor-AC_Camera-To-AreaTarget-Runway AccessIntervals" StartTime = "28 Oct 2011 18:54:00.000" StopTime = "28 Oct 2011 18:55:36.377" />
+                <Interval Name = "Aircraft-CertAircraft-Sensor-AC_Camera-To-AreaTarget-Runway AccessIntervals" StartTime = "28 Oct 2011 19:39:56.622" StopTime = "28 Oct 2011 19:41:32.071" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Satellite-CertSatellite-Sensor-Sat_Camera-To-Place-Ica AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/CertSatellite/Sensor/Sat_Camera;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica" Type = "IntervalList">
+                <Interval Name = "Satellite-CertSatellite-Sensor-Sat_Camera-To-Place-Ica AccessIntervals" StartTime = "28 Oct 2011 19:58:18.508" StopTime = "28 Oct 2011 20:00:59.633" />
+                <Interval Name = "Satellite-CertSatellite-Sensor-Sat_Camera-To-Place-Ica AccessIntervals" StartTime = "28 Oct 2011 21:34:42.722" StopTime = "28 Oct 2011 21:37:25.286" />
+                <Interval Name = "Satellite-CertSatellite-Sensor-Sat_Camera-To-Place-Ica AccessIntervals" StartTime = "28 Oct 2011 23:11:12.648" StopTime = "28 Oct 2011 23:13:39.149" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Aircraft-CertAircraft-Sensor-AC_Camera-To-Place-Ica AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Aircraft/CertAircraft/Sensor/AC_Camera;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica" Type = "IntervalList">
+                <Interval Name = "Aircraft-CertAircraft-Sensor-AC_Camera-To-Place-Ica AccessIntervals" StartTime = "28 Oct 2011 19:17:03.300" StopTime = "28 Oct 2011 19:18:10.152" />
+                <Interval Name = "Aircraft-CertAircraft-Sensor-AC_Camera-To-Place-Ica AccessIntervals" StartTime = "28 Oct 2011 19:18:23.661" StopTime = "28 Oct 2011 19:19:43.414" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Aircraft-CertAircraft-To-AreaTarget-Runway AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Aircraft/CertAircraft;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/AreaTarget/Runway" Type = "IntervalList">
+                <Interval Name = "Aircraft-CertAircraft-To-AreaTarget-Runway AccessIntervals" StartTime = "28 Oct 2011 18:54:00.000" StopTime = "28 Oct 2011 19:41:32.071" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Ica-To-Satellite-Aqua_27424 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/Aqua_27424" Type = "IntervalList">
+                <Interval Name = "Place-Ica-To-Satellite-Aqua_27424 AccessIntervals" StartTime = "28 Oct 2011 18:54:00.000" StopTime = "28 Oct 2011 18:55:07.060" />
+                <Interval Name = "Place-Ica-To-Satellite-Aqua_27424 AccessIntervals" StartTime = "28 Oct 2011 20:22:14.933" StopTime = "28 Oct 2011 20:28:09.191" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Ica-To-Satellite-Aura_28376 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/Aura_28376" Type = "IntervalList">
+                <Interval Name = "Place-Ica-To-Satellite-Aura_28376 AccessIntervals" StartTime = "28 Oct 2011 18:54:00.000" StopTime = "28 Oct 2011 19:03:04.944" />
+                <Interval Name = "Place-Ica-To-Satellite-Aura_28376 AccessIntervals" StartTime = "28 Oct 2011 20:30:08.438" StopTime = "28 Oct 2011 20:36:11.539" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Ica-To-Satellite-Cloudsat_29107 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/Cloudsat_29107" Type = "IntervalList">
+                <Interval Name = "Place-Ica-To-Satellite-Cloudsat_29107 AccessIntervals" StartTime = "28 Oct 2011 19:52:24.053" StopTime = "28 Oct 2011 20:03:54.013" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Ica-To-Satellite-Coriolis_27640 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/Coriolis_27640" Type = "IntervalList">
+                <Interval Name = "Place-Ica-To-Satellite-Coriolis_27640 AccessIntervals" StartTime = "28 Oct 2011 22:21:59.193" StopTime = "28 Oct 2011 22:36:38.530" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Ica-To-Satellite-Geoeye1_33331 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/Geoeye1_33331" Type = "IntervalList" />
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Ica-To-Satellite-Landsat8_39084 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/Landsat8_39084" Type = "IntervalList" />
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Ica-To-Satellite-Terra_25994 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/Terra_25994" Type = "IntervalList" />
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Ica-To-Satellite-Worldview1_32060 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/Worldview1_32060" Type = "IntervalList" />
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Place-Ica-To-Satellite-Worldview2_35946 AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Place/Ica;/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11/Satellite/Worldview2_35946" Type = "IntervalList" />
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/BACKUPSTK_Cert_JohnathanSteffen_V11" GlobalStartOffset = "0.000000" GlobalStartTime = "28 Oct 2011 18:54:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "28 Oct 2011 23:54:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

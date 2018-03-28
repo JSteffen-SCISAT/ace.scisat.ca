@@ -1,0 +1,15 @@
+{% extends "theme/base.html" %}
+
+{% block breadcrumb__links %}
+  <li class="breadcrumb__primary"><a href="{% url 'home:index' %}">Home</a></li>
+  <li class="breadcrumb__addon"><i class="fa fa-angle-double-right"></i></li>
+  <li class="breadcrumb__addon"><span><a href="{% url 'molecules:index' %}">Molecules</a></span></li>
+  <li class="breadcrumb__addon"><i class="fa fa-angle-double-right"></i></li>
+  <li class="breadcrumb__addon"><span><a href="{% url 'molecules:molecules22' %}">v2.2 MW List</a></span></li>
+{% endblock breadcrumb__links %}
+
+{% block content %}
+		<h1>Molecules v2.2 MW List</h1>
+		<iframe src="theme/static/theme/documents/ACE-SOC-0020-microwindow_list_for_v2.2_and_updates_Dec1.pdf" type=application/pdf <p><b>The list is not available</b></p></iframe>
+		<iframe src="/theme/static/theme/documents/ACE-SOC-0020-microwindow_list_for_v2.2_and_updates_Dec1.pdf" type=application/pdf <p><b>The list is not available</b></p></iframe>
+{% endblock %}

@@ -1,0 +1,18 @@
+<?xml version = "1.0" standalone = "yes"?>
+<TimelineLine_Prefs STK_version = "11.2.0">
+    <Views Type = "Content">
+        <ContentView Name = "Scenario Availability">
+            <Row ClassName = "Scenario" ComponentName = "AvailabilityIntervals" DisplayName = "When_Can_I_See_Santa AvailabilityIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "/Application/STK/Scenario/When_Can_I_See_Santa" Type = "IntervalList">
+                <Interval Name = "When_Can_I_See_Santa AvailabilityIntervals" StartTime = "24 Dec 2017 23:00:00.000" StopTime = "25 Dec 2017 11:00:00.000" />
+            </Row>
+            <Row ClassName = "Access" ComponentName = "AccessIntervals" DisplayName = "Aircraft-Santa-To-Place-PresentDelivery AccessIntervals" IsDefaultName = "True" IsExpanded = "False" IsGroup = "False" IsHidden = "False" Path = "Access:/Application/STK/Scenario/When_Can_I_See_Santa/Aircraft/Santa;/Application/STK/Scenario/When_Can_I_See_Santa/Place/PresentDelivery" Type = "IntervalList">
+                <Interval Name = "Aircraft-Santa-To-Place-PresentDelivery AccessIntervals" StartTime = "25 Dec 2017 04:44:13.194" StopTime = "25 Dec 2017 04:53:32.982" />
+                <Interval Name = "Aircraft-Santa-To-Place-PresentDelivery AccessIntervals" StartTime = "25 Dec 2017 05:25:53.965" StopTime = "25 Dec 2017 05:35:26.000" />
+                <Interval Name = "Aircraft-Santa-To-Place-PresentDelivery AccessIntervals" StartTime = "25 Dec 2017 06:33:00.888" StopTime = "25 Dec 2017 06:39:54.684" />
+            </Row>
+        </ContentView>
+    </Views>
+    <Views Type = "Time">
+        <TimeView FullViewRulerStartTime = "0.000000" FullViewRulerStopTime = "0.000000" GlobalIntervalComp = "AnalysisInterval" GlobalIntervalCompPath = "/Application/STK/Scenario/When_Can_I_See_Santa" GlobalStartOffset = "0.000000" GlobalStartTime = "24 Dec 2017 23:00:00.000" GlobalStopOffset = "0.000000" GlobalStopTime = "25 Dec 2017 11:00:00.000" MaxFullViewTime = "0.000000" MinFullViewTime = "0.000000" Name = "Scenario Analysis Period" ViewportStartTime = "0.000000" ViewportStopTime = "0.000000" />
+    </Views>
+</TimelineLine_Prefs>

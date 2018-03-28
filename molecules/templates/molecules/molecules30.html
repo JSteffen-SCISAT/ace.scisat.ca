@@ -1,0 +1,15 @@
+{% extends "theme/base.html" %}
+
+{% block breadcrumb__links %}
+  <li class="breadcrumb__primary"><a href="{% url 'home:index' %}">Home</a></li>
+  <li class="breadcrumb__addon"><i class="fa fa-angle-double-right"></i></li>
+  <li class="breadcrumb__addon"><span><a href="{% url 'molecules:index' %}">Molecules</a></span></li>
+  <li class="breadcrumb__addon"><i class="fa fa-angle-double-right"></i></li>
+  <li class="breadcrumb__addon"><span><a href="{% url 'molecules:molecules30' %}">v3.0 MW List</a></span></li>
+{% endblock breadcrumb__links %}
+
+{% block content %}
+		<h1>Molecules v3.0 MW List</h1>
+		<iframe src="/theme/static/theme/documents/ACE-SOC-0024-RevA-ACE-FTS_Spectroscopy__Jun212011.pdf" type=application/pdf <p><b>The 3.0 list is not available</b></p></embed>
+		<iframe src="theme/static/theme/documents/ACE-SOC-0024-RevA-ACE-FTS_Spectroscopy__Jun212011.pdf" type=application/pdf <p><b>The 3.0 list is not available</b></p></embed>
+{% endblock %}

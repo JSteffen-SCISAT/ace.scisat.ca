@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MovieTimeline>
+  <Info>
+    <SavedBy>Movie Timeline v11.2</SavedBy>
+    <FileFormatVersion>2</FileFormatVersion>
+  </Info>
+  <Project>
+    <FullInterval>
+      <StartTime>0</StartTime>
+      <EndTime>18000</EndTime>
+    </FullInterval>
+    <ZoomInterval>
+      <StartTime>1340</StartTime>
+      <EndTime>1560</EndTime>
+    </ZoomInterval>
+    <LastTrackNum>1</LastTrackNum>
+  </Project>
+  <Tracks>
+    <Track>
+      <Shot>
+        <Format>WMV</Format>
+        <PathFileName>C:\Users\sjones\Videos\AircraftView</PathFileName>
+        <StartFrame>0</StartFrame>
+        <NumDigits>4</NumDigits>
+        <Bitrate>3000</Bitrate>
+        <WMV_Codec />
+        <Interval>
+          <StartTime>1340</StartTime>
+          <EndTime>1560</EndTime>
+        </Interval>
+      </Shot>
+      <Collapsed>true</Collapsed>
+      <Selected>false</Selected>
+      <is2D>false</is2D>
+      <WindowID>1</WindowID>
+      <WindowCustomName />
+      <WindowWidth>480</WindowWidth>
+      <WindowHeight>360</WindowHeight>
+      <PixelAspect>1</PixelAspect>
+      <PreviewWidth>0</PreviewWidth>
+      <WindowSizeName>Medium - 480x360</WindowSizeName>
+      <AntiAliasing>2</AntiAliasing>
+      <MotionBlur>false</MotionBlur>
+      <OffScreenRender>true</OffScreenRender>
+      <LastSubTrackNum>0</LastSubTrackNum>
+      <SubTracks>
+        <SubtrackTimeStep>
+          <Name>Time step</Name>
+          <Selected>false</Selected>
+          <Keyframes>
+            <Key>
+              <Time>1340</Time>
+              <Selected>false</Selected>
+              <Value>1</Value>
+            </Key>
+          </Keyframes>
+        </SubtrackTimeStep>
+        <SubtrackCamera>
+          <Name>Camera</Name>
+          <Selected>false</Selected>
+          <Keyframes>
+            <Key>
+              <Time>1340</Time>
+              <Selected>false</Selected>
+              <Type>StoredView</Type>
+              <Name>Aircraft</Name>
+            </Key>
+          </Keyframes>
+        </SubtrackCamera>
+      </SubTracks>
+    </Track>
+  </Tracks>
+</MovieTimeline>
