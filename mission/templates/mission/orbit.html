@@ -18,45 +18,46 @@
 
 {% block content %}
 	<h1>Orbit</h1>
+	<p>The orbit described here is the orbit at time of launch.  The latitude drifts by about one day each year and the altitude drops about 1km each year: </p>
+	
+	<div align="center">
+	<p class="text_center">
+		<strong>Inclination (i):</strong> 74 degrees
+	</p>
+	<p class="text_center">
+		<strong>Altitude (h):</strong> 650 km
+	</p>
+	<p class="text_center">
+		<strong>Orbit Eccentricity (e):</strong> 0 (circular)
+	</p>
+	<p class="text_center">
+		<strong>Orbital Period:</strong> 97.7 minutes
+	</p>
+	<p class="text_center">
+		<strong>Orbital Lifetime</strong> &gt; 5 years 
+	</p>
+	</div>
 	<p class="text">
 		The 74&deg; orbit was chosen as the optimum inclination to 
 		achieve a combination of numerous measurements, global coverage and high latitude 
 		extension. The latitude of occultation measurements possible from the SCISAT orbit 
 		(see figure) essentially repeats itself every year.
-			</p>
-			<p>
-					The orbit described here is the orbit at time of launch.  The latitude drifts by about one day each year and the altitude drops about 1km each year. 
 	</p>
-	<div align="center"
-	<p class="text_center">
-		Inclination (i): 74 degrees
-	</p>
-	<p class="text_center">
-		Altitude (h): 650 km
-	</p>
-	<p class="text_center">
-		Orbit Eccentricity (e): 0 (circular)
-	</p>
-	<p class="text_center">
-		Orbital Period: 97.7 minutes
-	</p>
-	<p class="text_center">
-		Orbital Lifetime &gt; 5 years 
-	</p>
-	</div>
 	
 	<br>
 	
+	<div align='center'>
 	<p class="mis_figcaption">
-		Orbit information over the satellite's lifetime provided by calsky.com:
+		<strong>Orbit information over SCISAT's lifetime provided by calsky.com:</strong>
 	</p>
-	<iframe width="800px" height="800px" src="{% static "mission/scisat_orbit.pdf" %}" type=application/pdf <p><b>The orbit is not available at this time</b></p></iframe>
+	<img src="{% static "mission/scisat-orbit-info.png" %}" alt="SCISAT Orbit Info Plots" width=800 height=750>
+	</div>
 	<br>
+	<div align="center">
 	
 	<p class="mis_figcaption">
 		Occultation lattitude as a function of date for the SCISAT satellite:
 	</p>
-	<div align="center">
 		<a href="theme/img/SCISAT_Orbit_Latitude2.jpg" class="img single_image" title="Occultation Latitude as a Function of Date">
 						<img src="{% static "mission/SCISAT_Orbit_Latitude2.jpg" %}" alt="SCISAT Latitude Plot" width="600" height="400"  title="Occultation latitude as a function of date for the SCISAT satellite" border="0">
 		</a>

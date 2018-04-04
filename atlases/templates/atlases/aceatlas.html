@@ -1,4 +1,5 @@
 {% extends "theme/base.html" %}
+{% load static %}
 
 {% block breadcrumb__links %}
   <li class="breadcrumb__primary"><a href="{% url 'home:index' %}">Home</a></li>
@@ -6,6 +7,9 @@
   <li class="breadcrumb__addon"><span><a href="{% url 'atlases:ace' %}">ace atlas</a></span></li>
 {% endblock breadcrumb__links %}
 
+{% block head_addon_bottom %}
+<link href="{% static "atlases/css/atlases.css" %}" rel="stylesheet" type="text/css">
+{% endblock head_addon_bottom %}
 
 {% block content %}
   <div id="container">
@@ -18,7 +22,15 @@
               <!-- ********************* Main Page Content *************************** -->
               <div id='atl_title'><h1>ACE-FTS Atmospheric Atlases</h1></div>
               <div id=atl_refs><p class='paper_ref'>Hughes, Ryan, Peter Bernath, Chris Boone (2014), <a href='ace_atlas/ACE-atm-atlases-2014.pdf'>ACE Infrared Spectral Atlases of the Earth&#8217;s Atmosphere</a>, <em>J. Quant. Spectrosc. Rad. Trans.</em> <strong>148</strong>, 18-21.<br></p></div>
-              <div id='pbc_warning'><strong>Caution:</strong> If the text files are opened in MS Excel, they will be truncated because the number of lines exceed the number allowed</div>
+			  
+			  <br> 
+			  <div align='center'>
+              <div align='center' style='display: inline-block; border:1px solid red; padding: 10px 30px; margin: auto;'>
+			  <p><strong>Warning:</strong> If the text files are opened in MS Excel, they will be truncated because the number of lines exceed the number allowed</p>
+			  </div>
+			  </div>
+			  <br>
+			  
               <div class='atl_regionbox'>
                 <table id='atl_atlastable'>
                   <tr>
@@ -402,15 +414,15 @@
                   </tr>
                   <tr>
                     <td class='atl_botleftcol'><strong>MLS profile</strong></td>
-                    <td class='atl_bottop'><a href='ace_atlas/ace_atlas_midlatitudesummer.zip'>zip</a> (276 MB)</td>
+                    <td class='atl_bottop'><a href='ace_atlas/ace_atlas_midlatitudesummer.zip'>.ZIP</a> (<span class='reducesize'>276 MB</span>)</td>
                     <td class='atl_botleftcol'><strong>MLW profile</strong></td>
-                    <td class='atl_bottop'><a href='ace_atlas/ace_atlas_midlatitudewinter.zip'>zip</a> (277 MB)</td>
+                    <td class='atl_bottop'><a href='ace_atlas/ace_atlas_midlatitudewinter.zip'>.ZIP</a> (<span class='reducesize'>277 MB</span>)</td>
                     <td class='atl_botleftcol'><strong>AS profile</strong></td>
-                    <td class='atl_bottop'><a href='ace_atlas/ace_atlas_arcticsummer.zip'>zip</a> (272 MB)</td>
+                    <td class='atl_bottop'><a href='ace_atlas/ace_atlas_arcticsummer.zip'>.ZIP</a> (<span class='reducesize'>272 MB</span>)</td>
                     <td class='atl_botleftcol'><strong>AW profile</strong></td>
-                    <td class='atl_bottop'><a href='ace_atlas/ace_atlas_arcticwinter.zip'>zip</a> (274 MB)</td>
+                    <td class='atl_bottop'><a href='ace_atlas/ace_atlas_arcticwinter.zip'>.ZIP</a>(<span class='reducesize'>274 MB</span>)</td>
                     <td class='atl_botleftcol'><strong>TRO profile</strong></td>
-                    <td class='atl_rightcol atl_bottop'><a href='ace_atlas/ace_atlas_tropics.zip'>zip</a> (270 MB)</td>
+                    <td class='atl_rightcol atl_bottop'><a href='ace_atlas/ace_atlas_tropics.zip'>.ZIP</a> (<span class='reducesize'>270 MB</span>)</td>
                   </tr>
                 </table>  <!-- atlastable -->
               </div>  <!-- regionbox -->

@@ -8,12 +8,15 @@
   <li class="breadcrumb__addon"><span><a href="{% url 'atlases:solar' %}">solar atlas</a></span></li>
 {% endblock breadcrumb__links %}
 
+{% block head_addon_bottom %}
+<link href="{% static "atlases/css/atlases.css" %}" rel="stylesheet" type="text/css">
+{% endblock head_addon_bottom %}
+
 {% block content %}
 	<h1>Solar Atlas</h1>
+	<div>
 	<div id="mis_pic1" class="noprint">
-		<a href="theme/img/sunset.jpg" title="Sunset" class="single_image">
-		<img src="{% static "theme/img/sunset.jpg" %}" alt="Sunset" align="right" >
-		</a>
+		<img width="400px" height="300px" src="{% static "atlases/img/sunset.jpg" %}" alt="Sunset" align="right" >
 	</div>
 	
 	<div id="sptrm_full">
@@ -26,6 +29,7 @@
 		<!-- </p> -->
 	</div>
 	
+	<br>
 	<div id="sptrm_parts">
 		<!-- <p class="text"> -->
 			<h3>In Separate Sections</h3>
@@ -35,6 +39,9 @@
 			</ul>
 		<!-- </p> -->
 	</div>
+	</div>
+	
+	<br>
 	
 	<div id="sptrm_reftitle">
 		<h3>References</h3>
