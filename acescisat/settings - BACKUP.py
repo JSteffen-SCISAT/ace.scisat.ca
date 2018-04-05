@@ -88,8 +88,8 @@ WSGI_APPLICATION = 'acescisat.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'C:\\Users\\jsteffen\\Documents\\dev\\acescisat\\db.sqlite3',
-        'USER': '',
+        'NAME': 'acescisat',
+        'USER': 'sjones',
         'PASSWORD': '',
         'HOST': '',
         'PORT': '',

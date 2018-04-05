@@ -184,6 +184,13 @@ td,th{
 padding:0
 }
 
+#popout {
+background-color: #ffee8f;
+border: 1px solid black;
+padding: 10px;
+margin: 10px;
+}
+
 /*!
  *  Font Awesome 4.5.0 by @davegandy - http://fontawesome.io - @fontawesome
  */@font-face{

@@ -1,3 +1,15 @@
+{% extends "theme/base.html" %}
+{% load static %}
+
+{% block breadcrumb__links %}
+  <li class="breadcrumb__primary"><a href="{% url 'home:index' %}">Home</a></li>
+  <li class="breadcrumb__addon"><i class="fa fa-angle-double-right"></i></li>
+  <li class="breadcrumb__addon"><span><a href="{% url 'molecules:index' %}">Molecule List</a></span></li>
+  <li class="breadcrumb__addon"><i class="fa fa-angle-double-right"></i></li>
+  <li class="breadcrumb__addon"><span><a href="{% url 'molecules:index' %}">O<sub>3</sub> Validation</a></span></li>
+{% endblock breadcrumb__links %}
+
+{% block content %}
 <div id='mol_titlebox'><h1>ACE-FTS Molecules</h1></div>
 </span><span class='mol_otherlist'><h3>Validation papers of O<sub>3</sub></h3>
 <p class='paper_ref'>Waymark, C., K.A. Walker, C.D. Boone, P.F. Bernath</span> (2013), <a href='http://www.ace.uwaterloo.ca/publications/2013/6339-13347-1-PB.pdf' class='paper_ref_link'>ACE-FTS version 3.0 data set: validation and data processing update</a>, <em>Ann. Geophys.</em> <strong>56</strong>, Fast Track-1.</p>
@@ -95,4 +107,4 @@ P. Braesicke, C. Br&uuml;hl, N. Butchart, M. Chipperfield, M. Dameris, S. Dhomse
 <p class='paper_ref'>Hocke, K., A. Haefele, C.L. Drian, N. K&auml;mpfer, D. Ruffieux, T. von Clarmann, M. Milz, T. Steck, L. Froidevaux, H.C. Pumphrey, C. Jimenez, K.A. Walker, P. Bernath, Y.M. Timofeyev, A.V. Polyakov</span> (2006), <a href='http://www.ace.uwaterloo.ca/publications/2006/#' class='paper_ref_link'>Cross-validation of recent satellite and ground-based measurements of ozone and water vapor in the middle atmosphere</a>, <em>Proc. ESA Atmospheric Science Conference (Ed. H. Lacoste)</em> <strong>ESA SP-628 (CD-ROM)</strong>, ESA Publications Division, European Space Agency, Noordwijk, The Netherlands.</p>
 <p class='paper_ref'>Walker, K.A., C.E. Randall, C.R. Trepte, C.D. Boone, P.F. Bernath</span> (2005), <a href='http://www.ace.uwaterloo.ca/publications/2005/WalkerValidationComparisons.pdf' class='paper_ref_link'>Initial validation comparisons for the Atmospheric Chemistry Experiment (ACE-FTS)</a>, <em>Geophys. Res. Lett.</em> <strong>32</strong>, L16S04.</p>
 </span></td></tr>
-
+{% endblock %}

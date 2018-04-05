@@ -5,9 +5,6 @@ import os
 def index(request):
 	return render_to_response(os.path.join('molecules','index.html'))
 	
-def moleculelist(request):
-	return render_to_response(os.path.join('molecules','moleculelist.html'))
-	
 def molecules35(request):
 	return render_to_response(os.path.join('molecules','molecules35.html'))
 	

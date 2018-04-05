@@ -9,7 +9,6 @@ from . import views
 app_name = 'molecules'
 urlpatterns = [
     path('', views.index, name='index'),
-    path('moleculelist', views.moleculelist, name='moleculelist'),
     path('molecules35', views.molecules35, name='molecules35'),
     path('molecules30', views.molecules30, name='molecules30'),
     path('molecules22', views.molecules22, name='molecules22'),
