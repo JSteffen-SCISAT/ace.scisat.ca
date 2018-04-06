@@ -38,6 +38,7 @@ INSTALLED_APPS = [
 	'mission.apps.MissionConfig',
 	'molecules.apps.MoleculesConfig',
 	'montreal.apps.MontrealConfig',
+	'publications',
 	'scenario.apps.ScenarioConfig',
 	'science.apps.ScienceConfig',
 	'theme',
@@ -87,11 +88,11 @@ WSGI_APPLICATION = 'acescisat.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'C:\\Users\\jsteffen\\Documents\\dev\\acescisat\\db.sqlite3',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'acescisat',
+        'USER': 'website',
+        'PASSWORD': 'Acescisat2017!',
+        'HOST': 'localhost',
         'PORT': '',
     }
 }

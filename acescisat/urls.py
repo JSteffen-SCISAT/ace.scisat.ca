@@ -31,6 +31,7 @@ urlpatterns = [
 	path('mission/', include('mission.urls')),
 	path('molecules/', include('molecules.urls')),
 	path('montreal/', include('montreal.urls')),
+	path('publications/', include('publications.urls')),
     path('scenario/', include('scenario.urls')),
 	path('science/', include('science.urls')),
 ]
