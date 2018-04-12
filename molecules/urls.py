@@ -13,5 +13,5 @@ urlpatterns = [
     path('molecules30', views.molecules30, name='molecules30'),
     path('molecules22', views.molecules22, name='molecules22'),
     path('validation_O3', views.validation_O3, name='validation_O3'),
-    path('testtable', views.testtable, name='testtable')
+	path('<slug:molecule>', views.index, name='index'),
 ]

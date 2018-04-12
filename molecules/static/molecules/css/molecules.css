@@ -1,7 +1,3 @@
-td {
-text-align: center;
-}
-
-.mol_legend {
+.mol_legend,td {
 text-align: center;
 }

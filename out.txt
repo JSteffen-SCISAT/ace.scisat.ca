@@ -1,0 +1,156 @@
+ id  |         list          |                           description                           
+-----+-----------------------+-----------------------------------------------------------------
+   1 | Highlights            | Highlights
+  31 | mol_CF4               | CF4 (Tetrafluoromethane)
+  47 | mol_CH2FCF3           | CH2FCF3 / HFC-134a (1,1,1,2-Tetrafluoroethane)
+  24 | mol_CH3CClF2          | CH3CClF2 / HCFC-142b (1-Chloro-1,1-difluoroethane)
+  32 | mol_CH3Cl             | CH3Cl (Chloromethane)
+  52 | mol_CH3COOONO2        | CH3C(O)OONO2 / PAN (Perxyacetyl nitrate)
+  68 | mol_CH3D              | CH3D
+  35 | mol_OCS               | OCS (Carbonyl sulfide)
+  93 | mol_OCS_val           | OCS (Carbonyl sulfide) validation
+  73 | mol_O13CO             | O13CO
+ 102 | mol_O13CO_val         | O13CO validation
+   5 | class_ACEbook         | ACE at 10: Solar Occultation Anthology
+  46 | mol_C2H3Cl2F          | C2H3Cl2F / HCFC-141b (1,1-Dichloro-1-fluoroethane)
+ 103 | mol_C2H3Cl2F_val      | C2H3Cl2F / HCFC-141b (1,1-Dichloro-1-fluoroethane) validation
+  51 | mol_C2H4              | C2H4 (Ethylene)
+   8 | class_SolarAtlas      | Solar Atlas Articles
+ 104 | mol_C2H4_val          | C2H4 (Ethylene) validation
+  11 | mol_CH4               | CH4 (Methane)
+  44 | mol_CHClF2            | CHClF2 / HCFC-22 (Chlorodifluoromethane)
+  48 | mol_CHF3              | CHF3 / HFC-23 (Fluoroform)
+  63 | mol_H217O             | H217O
+   7 | class_ACPspec         | Atmospheric Chemistry and Physics: ACE Validation Special Issue
+   6 | class_GRLspec         | Geophysical Research Letters: ACE Special Issue
+   2 | class_MissionOverview | Mission Overview Articles
+  49 | mol_ClO               | ClO (Chlorine monoxide)
+  71 | mol_H218O             | H218O
+  69 | mol_OC34S             | OC34S
+  94 | mol_OC34S_val         | OC34S validation
+  74 | mol_OC18O             | OC18O
+  95 | mol_OC18O_val         | OC18O validation
+  55 | mol_OC17O             | OC17O
+  33 | mol_C2H6              | C2H6 (Ethane)
+ 105 | mol_C2H6_val          | C2H6 (Ethane) validation
+  56 | mol_O13C18O           | O13C18O
+  19 | mol_CCl3F             | CCl3F / CFC-11 (Trichlorofluoromethane)
+  23 | mol_CCl4              | CCl4 (Carbon tetrachloride)
+  77 | mol_NO3               | NO3 (Nitrate)
+  20 | mol_CCl2F2            | CCl2F2 / CFC-12 (Dichlorodifluoromethane)
+  22 | mol_ClONO2            | ClONO2 (Chlorine nitrate)
+  18 | mol_CO                | CO (Carbon monoxide)
+  96 | mol_OC17O_val         | OC17O validation
+  26 | mol_CO2               | CO2 (Carbon dioxide)
+  40 | mol_COCl2             | COCl2 (Phosgene)
+  29 | mol_COClF             | COClF (Carbonyl chlorofluoride)
+  12 | mol_N2O               | N2O (Nitrous oxide)
+  30 | mol_COF2              | COF2 (Carbonyl fluoride)
+  36 | mol_H2CO              | H2CO (Formaldehyde)
+  10 | mol_H2O               | H2O (Water)
+  38 | mol_H2O2              | H2O2 (Hydrogen peroxide)
+  16 | mol_HCl               | HCl (Hydrogen chloride)
+  25 | mol_HCN               | HCN (Hydrogen cyanide)
+  27 | mol_HCOOH             | HCOOH (Formic acid)
+  54 | mol_HDO               | HDO (Semiheavy water)
+  17 | mol_HF                | HF (Hydrogen fluoride)
+  15 | mol_HNO3              | HNO3 (Nitric acid)
+  37 | mol_HO2NO2            | HO2NO2 (Peroxynitric acid)
+  50 | mol_HOCl              | HOCl (Hypochlorous acid)
+  60 | mol_N15NO             | N15NO
+  42 | mol_N2                | N2 (Nitrogen)
+  62 | mol_N218O             | N218O
+  72 | mol_N217O             | N217O
+  75 | mol_clouds-aerosols   | Clouds / Aerosols
+  13 | mol_NO2               | NO2 (Nitrogen dioxide)
+  21 | mol_N2O5              | N2O5 (Dinitrogen pentoxide)
+  78 | mol_HNO4              | HNO4 (Peroxynitric acid)
+  80 | validation            | Validation Papers
+  67 | mol_13CH4             | 13CH4
+  64 | mol_13CO              | 13CO
+  82 | mol_13CO_val          | 13CO validation
+  81 | mol_13CH4_val         | 13CH4 validation
+  61 | mol_15NNO             | 15NNO
+  83 | mol_15NNO_val         | 15NNO validation
+  57 | mol_18OO2             | 18OO2
+  84 | mol_18OO2_val         | 18OO2 validation
+  79 | mol_BrONO2            | BrONO2
+  85 | mol_BrONO2_val        | BrONO2 validation
+  66 | mol_C17O              | C17O
+  86 | mol_C17O_val          | C17O validation
+  65 | mol_C18O              | C18O
+  87 | mol_C18O_val          | C18O validation
+  43 | mol_C2Cl3F2           | C2Cl3F2 / HCFC-142b
+  88 | mol_C2Cl3F2_val       | C2Cl3F2 / HCFC-142b validation
+  45 | mol_C2Cl3F3           | C2Cl3F3 / CFC-113 (1,1,1-Trichlorotrifluoroethane)
+  89 | mol_C2Cl3F3_val       | C2Cl3F3 / CFC-113 (1,1,1-Trichlorotrifluoroethane) validation
+  39 | mol_C2H2              | C2H2 (Acetylene)
+  90 | mol_C2H2_val          | C2H2 (Acetylene) validation
+  53 | mol_SO2               | SO2 (Sulfur dioxide)
+  91 | mol_SO2_val           | SO2 (Sulfur dioxide) validation
+  34 | mol_SF6               | SF6 (Sulfur hexafluoride)
+  92 | mol_SF6_val           | SF6 (Sulfur hexafluoride) validation
+   9 | mol_O3                | O3 (Ozone)
+  97 | mol_O3_val            | O3 (Ozone) validation
+  41 | mol_O2                | O2 (Oxygen)
+  98 | mol_O2_val            | O2 (Oxygen) validation
+  58 | mol_O18OO             | O18OO
+  99 | mol_O18OO_val         | O18OO validation
+  59 | mol_O17OO             | O17OO
+ 100 | mol_O17OO_val         | O17OO validation
+  70 | mol_O13CS             | O13CS
+ 101 | mol_O13CS_val         | O13CS validation
+ 106 | mol_O13C18O_val       | O13C18O validation
+ 107 | mol_NO3_val           | NO3 (Nitrate) validation
+ 108 | mol_NO2_val           | NO2 (Nitrogen dioxide) validation
+ 109 | mol_CCl2F2_val        | CCl2F2 / CFC-12 (Dichlorodifluoromethane) validation
+ 110 | mol_CCl3F_val         | CCl3F / CFC-11 (Trichlorofluoromethane) validation
+ 111 | mol_CCl4_val          | CCl4 (Carbon tetrachloride) validation
+ 112 | mol_CF4_val           | CF4 (Tetrafluoromethane) validation
+ 113 | mol_CH2FCF3_val       | CH2FCF3 / HFC-134a (1,1,1,2-Tetrafluoroethane) validation
+  28 | mol_CH3OH             | CH3OH (Methanol)
+  14 | mol_NO                | NO (Nitric oxide)
+  76 | mol_T_val             | T (Temperature) validation
+ 114 | mol_CH3CClF2_val      | CH3CClF2 / HCFC-142b (1-Chloro-1,1-difluoroethane) validation
+ 115 | mol_CH3Cl_val         | CH3Cl (Chloromethane) validation
+ 116 | mol_CH3C(O)OONO2_val  | CH3C(O)OONO2 / PAN (Perxyacetyl nitrate) validation
+ 117 | mol_CH3D_val          | CH3D validation
+ 118 | mol_CH3OH_val         | CH3OH (Methanol) validation
+ 119 | mol_CH4_val           | CH4 (Methane) validation
+ 120 | mol_CHClF2_val        | CHClF2 / HCFC-22 (Chlorodifluoromethane) validation
+ 121 | mol_CHF3_val          | CHF3 / HFC-23 (Fluoroform) validation
+ 122 | mol_ClO_val           | ClO (Chlorine monoxide) validation
+ 125 | mol_CO_val            | CO (Carbon monoxide) validation
+ 126 | mol_NO_val            | NO (Nitric oxide) validation
+ 128 | mol_CO2_val           | CO2 (Carbon dioxide) validation
+ 129 | mol_COCl2_val         | COCl2 (Phosgene) validation
+ 130 | mol_COClF_val         | COClF (Carbonyl chlorofluoride) validation
+ 131 | mol_COF2_val          | COF2 (Carbonyl fluoride) validation
+ 127 | mol_H217O_val         | H217O validation
+ 132 | mol_ClONO2_val        | ClONO2 (Chlorine nitrate) validation
+ 133 | mol_H218O_val         | H218O validation
+ 134 | mol_H2CO_val          | H2CO (Formaldehyde) validation
+ 135 | mol_H2O2_val          | H2O2 (Hydrogen peroxide) validation
+ 136 | mol_H2O_val           | H2O (Water) validation
+ 137 | mol_HCl_val           | HCl (Hydrogen chloride) validation
+ 138 | mol_HCN_val           | HCN (Hydrogen cyanide) validation
+ 139 | mol_HCOOH_val         | HCOOH (Formic acid) validation
+ 140 | mol_HDO_val           | HDO (Semiheavy water) validation
+ 141 | mol_HF_val            | HF (Hydrogen fluoride) validation
+ 142 | mol_HNO3_val          | HNO3 (Nitric acid) validation
+ 143 | mol_HNO4_val          | HNO4 (Peroxynitric acid) validation
+ 144 | mol_HO2NO2_val        | HO2NO2 (Peroxynitric acid) validation
+ 145 | mol_HOCl_val          | HOCl (Hypochlorous acid) validation
+ 146 | mol_N15NO_val         | N15NO validation
+ 147 | mol_N218O_val         | N218O validation
+ 148 | mol_N2_val            | N2 (Nitrogen) validation
+ 149 | mol_N2O5_val          | N2O5 (Dinitrogen pentoxide) validation
+ 150 | mol_N2O_val           | N2O (Nitrous oxide) validation
+ 151 | mol_N217O_val         | N217O validation
+ 152 | mol_T                 | Temperature
+ 153 | mol_C3H6O             | List of papers that refer to the molecule C3H6O
+ 154 | Clouds & Aerosols     | Publications with Clouds & Aerosols
+ 155 | v2.2 Temperature      | v2.2 Temperature Publications
+ 156 | v3.0 Temperature      | v3.0 Temperature Publications
+(152 rows)
+

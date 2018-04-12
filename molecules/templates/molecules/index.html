@@ -5,6 +5,10 @@
 <link href="{% static "molecules/css/molecules.css" %}" rel="stylesheet" type="text/css">
 {% endblock head_addon_bottom %}
 
+{% block footer_addon_js %}
+<script type="text/javascript" src="{% static "molecules/js/molecules.js" %}"></script>
+{% endblock footer_addon_js %}
+
 {% block breadcrumb__links %}
   <li class="breadcrumb__primary"><a href="{% url 'home:index' %}">Home</a></li>
   <li class="breadcrumb__addon"><i class="fa fa-angle-double-right"></i></li>
@@ -13,13 +17,25 @@
 
 {% block content %}
 <div id='mol_titlebox'><h1>ACE-FTS Molecules</h1></div>
+
+{{molecule}}
+<br>
+<br>
+
 <div class='mol_legend'><span class='mol_legtitle'><strong>Legend: </strong></span>P &#45; Polar E &#45; Equator<br></div>
 <table class='mol_table' border='1'><caption><sup><span id='dagger'>&#8224;</span></sup> indicates altitude range of the molecule in Research Mode</caption><tr class='toprow'>
 <td rowspan=2>Molecule</td><td colspan=2>Altitude (km)</td><td rowspan=2>Publications</td></tr><tr class='toprow'><td>V2.2 + updates</td><td>V3.0/V3.5</td></tr>
-<tr><td class='molcol'>O<sub>3</sub></td><td class='altcol'>5 - 95</td><td class='altcol'>5 - 95</td><td class='refcol'><a class='mol_toggleother'>Publications with O<sub>3</sub></a></td></tr>
-<tr><td class='molcol'>H<sub>2</sub>O</td><td class='altcol'>5 - 89</td><td class='altcol'>5 - 101</td><td class='refcol'><a class='mol_toggleother'>Publications with H<sub>2</sub>O</a></td></tr>
-<tr><td class='molcol'>CH<sub>4</sub></td><td class='altcol'>5 - 62</td><td class='altcol'>5 - 75</td><td class='refcol'><a class='mol_toggleother'>Publications with CH<sub>4</sub></a></td></tr>
-<tr><td class='molcol'>N<sub>2</sub>O</td><td class='altcol'>5 - 60</td><td class='altcol'>5 - 95</td><td class='refcol'><a class='mol_toggleother'>Publications with N<sub>2</sub>O</a></td></tr>
+
+<tr class="molhead"><td class='molcol'>O<sub>3</sub></td><td class='altcol'>5 - 95</td><td class='altcol'>5 - 95</td><td class='refcol'><a class='mol_toggleother'>Publications with O<sub>3</sub></a></td></tr>
+{% for pub in list %}
+<tr class='pubrow'><td></<td><td></td><td></td><td>{{ pub }}</td></tr>
+{% endfor %}
+<tr class="molhead"><td class='molcol'>H<sub>2</sub>O</td><td class='altcol'>5 - 89</td><td class='altcol'>5 - 101</td><td class='refcol'><a class='mol_toggleother'>Publications with H<sub>2</sub>O</a></td></tr>
+<tr class='pubrow'><td></<td><td></td><td></td><td>{{ list.0 }}</td></tr>
+<tr class='pubrow'><td></<td><td></td><td></td><td>{{ list.1 }}</td></tr>
+
+<tr class="molhead"><td class='molcol'>CH<sub>4</sub></td><td class='altcol'>5 - 62</td><td class='altcol'>5 - 75</td><td class='refcol'><a class='mol_toggleother'>Publications with CH<sub>4</sub></a></td></tr>
+<tr class="molhead"><td class='molcol'>N<sub>2</sub>O</td><td class='altcol'>5 - 60</td><td class='altcol'>5 - 95</td><td class='refcol'><a class='mol_toggleother'>Publications with N<sub>2</sub>O</a></td></tr>
 <tr><td class='molcol'>NO<sub>2</sub></td><td class='altcol'>13 - 58<br>13 - 45</td><td class='altcol'>7 - 52</td><td class='refcol'><a class='mol_toggleother'>Publications with NO<sub>2</sub></a></td></tr>
 <tr><td class='molcol'>NO</td><td class='altcol'>12 - 105</td><td class='altcol'>P: 6 - 107<br>E: 9 - 107</td><td class='refcol'><a class='mol_toggleother'>Publications with NO</a></td></tr>
 <tr><td class='molcol'>HNO<sub>3</sub></td><td class='altcol'>5 - 42<br>5 - 37</td><td class='altcol'>P: 5 - 59<br>E: 5 - 62</td><td class='refcol'><a class='mol_toggleother'>Publications with HNO<sub>3</sub></a></td></tr>

@@ -1,9 +1,11 @@
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, render
+from publications.models import Publication,List
 import os
 
 # Create your views here.
-def index(request):
-	return render_to_response(os.path.join('molecules','index.html'))
+def index(request, molecule=None):
+	mol_list = List.objects.raw('select id,list from publications_list where list like \'mol%%\'')
+	return render_to_response(os.path.join('molecules','index.html'), context={'molecule':molecule, 'list':[1,2,3,4]})
 	
 def molecules35(request):
 	return render_to_response(os.path.join('molecules','molecules35.html'))
